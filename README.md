@@ -17,7 +17,7 @@ The model consists of the following files in the `finished_triage_model/` direct
 
 ## 🚀 Usage
 
-To use this model, load it with the Hugging Face Transformers library:
+To use this model, load with the Hugging Face Transformers library:
 
 ```python
 from transformers import AutoTokenizer, AutoModel
