@@ -290,9 +290,8 @@ else:
         reset_patient()
         st.rerun()
 
-# ==========================
+
 # HOSPITAL STATUS
-# ==========================
 
 with st.expander("🏨 Hospital Capacity Status"):
 
