@@ -132,9 +132,7 @@ st.markdown(
 
 st.divider()
 
-# ==========================
-# INPUT PATIENT
-# ==========================
+# INPUT PASIENT
 
 if st.session_state.patient is None:
 
@@ -181,9 +179,7 @@ if st.session_state.patient is None:
             else:
                 st.warning("Please complete all fields")
 
-# ==========================
-# TRIAGE RESULT
-# ==========================
+#TRIAGE RESULT
 
 elif not st.session_state.dispatched:
 
@@ -258,9 +254,7 @@ elif not st.session_state.dispatched:
             reset_patient()
             st.rerun()
 
-# ==========================
 # DISPATCH SUCCESS
-# ==========================
 
 else:
 
